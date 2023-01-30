@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.example-block {
+    visibility: hidden;
+
+    font-size: 50px;
+    margin: 30px;
+}
+
+.example-string {
+    border-radius: 50px;
+
+    font-size: 50px;
+}
+
+.example-image {
+    outline: 1px solid red;
+
+    border: 10px dashed #000;
+    width: 200px;
+}
