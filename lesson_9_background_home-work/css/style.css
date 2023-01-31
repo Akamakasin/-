@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    max-width: 1190px;
+    margin: auto;
+    text-align: center;
+    height: 1064px;
+    background: url("../img/ellipse_1_copy_4.png") center center,
+                url("../img/main_img.png") center no-repeat;
+}
+
+.header_caption {
+    margin: 168px 0 28px;
+}
+
+.header_title {
+    margin: auto;
+    margin-bottom: 87px;
+    width: 720px;
+}
