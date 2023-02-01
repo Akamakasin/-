@@ -11,6 +11,14 @@ body {
     margin-bottom: 30px;
 }
 
+.block>p:nth-child(odd) {
+    background-color: yellow;
+}
+
+.block>p:nth-child(even) {
+    background-color: #eee;
+}
+
 .block>p{
     font-size: 18px;
     line-height: 24px;
@@ -19,6 +27,19 @@ body {
 
 .link {
     color: red;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.link:visited {
+    color: green;
+}
+
+.link:active {
+    color: yellow;
 }
 
 .textinput {
@@ -30,12 +51,48 @@ body {
     margin-bottom: 10px;
 }
 
+.textinput:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
 .textbutton {
     display: block;
     width: 300px;
     height: 50px;
     background-color: #666;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.textbutton:hover {
+    background-color: #333;
+    color: yellow;
+}
+
+.textbutton:active {
+    background-color: #eee;
 }
 
 .list {
+
+}
+
+.list>li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* .list>li:first-child {
+    color: green;
+}
+
+.list>li:last-child {
+    color: blue;
+    font-weight: 700;
+} */
+
+.list>li:nth-child(odd) {
+    text-decoration: underline;
 }
