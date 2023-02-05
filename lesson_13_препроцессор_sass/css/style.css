@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.link {
+  border-bottom: 5px dashed red;
+}
+
+.block {
+  width: 31.25%;
+  background-color: #666;
+  padding: 30px;
+  line-height: 60px;
+}
+.block span {
+  color: green;
+}
+.block .block__text {
+  font-size: 80px;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  font-size: 80px;
+}
+.block .link {
+  font-size: 80px;
+}
+.link:hover {
+  color: red;
+}
+
+.link-2 {
+  font-size: 100px;
+  color: green;
+}/*# sourceMappingURL=style.css.map */
